@@ -1,0 +1,15 @@
+package org.yujin.myproc;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+
+@SpringBootApplication
+@EnableJpaAuditing
+public class MyprocApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MyprocApplication.class, args);
+    }
+
+}

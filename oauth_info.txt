@@ -1,0 +1,29 @@
+** google
+project name: springboot-myproc
+app name: springboot-myproc
+client name: springboot-myproc
+login url: http://localhost:8080/oauth2/authorization/google
+redirect url: http://localhost:8080/login/oauth2/code/google
+client id: 86301551193-3vlqmvk1g4s4krsh8d0a8d3eneof5up1.apps.googleusercontent.com
+client password: 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
+** facebook
+app name: springboot-myproc
+app id: 290628570582780
+app secret: b764233d51bcd49740c1813408cde5d0
+login url: http://localhost:8080/oauth2/authorization/facebook
+** naver
+redirect url: http://localhost:8080/login/oauth2/code/naver
+app name: springboot-myproc
+client id: LeQvfm6cZT_S5HXuVrVS
+client secret: I3u4FuEOnq
+login url: http://localhost:8080/oauth2/authorization/naver
+** kakao
+app key: 34165d7e25716d26d7e9325d96291883
+app id: 973731
+app name: springboot-myproc
+owner name: yujin
+redirect uri: http://localhost:8080/auth/kakao/callback
+login url: http://localhost:8080/oauth2/authorization/kakao
+
+
+{id=3034344585, connected_at=2023-09-23T11:34:59Z, properties={nickname=_}, kakao_account={profile_nickname_needs_agreement=false, profile={nickname=_}, has_email=true, email_needs_agreement=false, is_email_valid=true, is_email_verified=true, email=dbwls343434@kakao.com}}
